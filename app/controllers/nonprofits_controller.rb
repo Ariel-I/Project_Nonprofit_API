@@ -4,7 +4,7 @@ class NonprofitsController < ApplicationController
   # GET /nonprofits
   def index
     @nonprofits = Nonprofit.all
-
+    #binding.pry
     render json: @nonprofits
   end
 

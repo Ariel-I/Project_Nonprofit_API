@@ -4,8 +4,8 @@ class CategoriesController < ApplicationController
   # GET /categories
   def index
     @categories = Category.all
-
-    render json: @categories
+    #binding.pry
+    render json: @categories, include: [:nonprofits]
   end
 
   # GET /categories/1
