@@ -6,7 +6,7 @@ Project Nonprofits backend utilizes Rails API while handeling the frontend with 
 
  
 
-##Installation
+## Installation
 
 After cloning this repository cd into the folder and run the following commands;
 ```
@@ -21,8 +21,8 @@ $rails s
 
 Once the rails server is running head over to the Project Nonprofit frontend and follow the necessary steps tp begin rendering the apllication. 
 
-##Contributing
+## Contributing
 This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
 
-##License
+## License
 The app is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
