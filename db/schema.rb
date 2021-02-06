@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 2021_02_01_223529) do
     t.string "description"
     t.string "contact_info"
     t.string "link"
+    t.string "image"
     t.integer "category_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

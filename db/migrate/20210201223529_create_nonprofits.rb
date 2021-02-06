@@ -6,6 +6,7 @@ class CreateNonprofits < ActiveRecord::Migration[6.0]
       t.string :description
       t.string :contact_info
       t.string :link
+      t.string :image
       t.integer :category_id
 
       t.timestamps
